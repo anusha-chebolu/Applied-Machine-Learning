@@ -19,12 +19,12 @@ Your task is to build a model that given attributes/features: Country name, Log 
 
 Answer the questions below directly in your Jupyter Notebook, using Markdown cells. Be sure to clearly indicate that your comment is an answer to a particular question.
 
-A. Summarize the data. How much data is present? What attributes/features are continuous valued? Which attributes are categorical?
-B. Display the statistical values for each of the attributes, along with visualizations (e.g., histogram) of the distributions for each attribute. Explain noticeable traits for key attributes. Are there any attributes that might require special treatment? If so, what special treatment might they require?
-C. Analyze and discuss the relationships between the data attributes, and between the data attributes and label. This involves computing the Pearson Correlation Coefficient (PCC) and generating scatter plots.
-D. Select 20% of the data for testing. Describe how you did that and verify that your test portion of the data is representative of the entire dataset.
-E. Train a Linear Regression model using the training data with four-fold cross-validation using appropriate evaluation metric. Do this with a closed-form solution (using the Normal Equation or SVD) and with SGD. Perform Ridge, Lasso and Elastic Net regularization – try a few values of penalty term and describe its impact. Explore the impact of other hyperparameters, like batch size and learning rate (no need for grid search). Describe your findings. For SGD, display the training and validation loss as a function of training iteration. 
-F. Repeat the previous step with polynomial regression. Using validation loss, explore if your model overfits/underfits the data.
-G. Make predictions of the labels on the test data, using the trained model with chosen hyperparameters. Summarize performance using the appropriate evaluation metric. Discuss the results. Include thoughts about what further can be explored to increase performance.
+1. Summarize the data. How much data is present? What attributes/features are continuous valued? Which attributes are categorical?
+2. Display the statistical values for each of the attributes, along with visualizations (e.g., histogram) of the distributions for each attribute. Explain noticeable traits for key attributes. Are there any attributes that might require special treatment? If so, what special treatment might they require?
+3. Analyze and discuss the relationships between the data attributes, and between the data attributes and label. This involves computing the Pearson Correlation Coefficient (PCC) and generating scatter plots.
+4. Select 20% of the data for testing. Describe how you did that and verify that your test portion of the data is representative of the entire dataset.
+5. Train a Linear Regression model using the training data with four-fold cross-validation using appropriate evaluation metric. Do this with a closed-form solution (using the Normal Equation or SVD) and with SGD. Perform Ridge, Lasso and Elastic Net regularization – try a few values of penalty term and describe its impact. Explore the impact of other hyperparameters, like batch size and learning rate (no need for grid search). Describe your findings. For SGD, display the training and validation loss as a function of training iteration. 
+6. Repeat the previous step with polynomial regression. Using validation loss, explore if your model overfits/underfits the data.
+7. Make predictions of the labels on the test data, using the trained model with chosen hyperparameters. Summarize performance using the appropriate evaluation metric. Discuss the results. Include thoughts about what further can be explored to increase performance.
 
 
